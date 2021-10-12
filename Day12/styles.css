@@ -1,0 +1,12 @@
+body {
+  background-color: pink;
+}
+
+h1 {
+  color: gray;
+  padding: 20px;
+}
+
+p {
+  color: rgba(102, 2, 128, 0.7);
+}
