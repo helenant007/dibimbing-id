@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .header {
+                background-color: orange;
+                height:100px;    
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;    
+            }
+            .header-2{
+                background-color: yellow;
+                height:100px;     
+                display: grid;
+                grid-template-columns: repeat(3, 200px);  
+                gap: 100px;
+                padding-left: 20%;
+            }
+            .container {
+                display: flex;
+                justify-content: center;
+            }
+            .sidebar {
+                border: 1px solid black;
+                width: 25%;
+            }
+            .content {
+                display: grid;
+                grid-template-columns: repeat(5, 15%);  
+                gap: 30px;
+                padding: 10px;
+            }
+            .product-card{
+                border: 1px solid grey;
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                padding: 10px;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div>Shopee</div>
+            <div>Search</div>
+            <div>Add To Cart</div>
+        </div>
+
+        <div class="header-2">
+            <div>Shopee</div>
+            <div>Search</div>
+            <div>Add To Cart</div>
+        </div>
+        <div class="container">
+            <div class="sidebar">
+                sidebar
+            </div>
+            <div class="content">
+                <div class="product-card">
+                    <img style="width:100px" src="https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg" />
+                    <div>Jual Foto Burung Cantik</div>
+                    <div>Rp 50.000,-</div>
+                </div>
+                <div class="product-card">
+                    <img style="width:100px" src="https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg" />
+                    <div>Jual Foto Burung Cantik</div>
+                    <div>Rp 50.000,-</div>
+                </div>
+                <div class="product-card">
+                    <img style="width:100px" src="https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg" />
+                    <div>Jual Foto Burung Cantik</div>
+                    <div>Rp 50.000,-</div>
+                </div>
+                <div class="product-card">
+                    <img style="width:100px" src="https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg" />
+                    <div>Jual Foto Burung Cantik</div>
+                    <div>Rp 50.000,-</div>
+                </div>
+                <div class="product-card">
+                    <img style="width:100px" src="https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg" />
+                    <div>Jual Foto Burung Cantik</div>
+                    <div>Rp 50.000,-</div>
+                </div>
+            </div>
+        </div>
+       
+    </body>
+</html>
