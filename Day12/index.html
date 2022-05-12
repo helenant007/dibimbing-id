@@ -1,68 +1,114 @@
-
-
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Tugas Helena</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-        <style>
-            /* .judul{
-                background-color: #CEF0FF;
-                font-family: Arial, Helvetica, sans-serif;
-                color: pink;
-            }
-            #top{
-                color:darkgreen;
-                text-decoration: none;
-            }
-            #bawah{
-                color:cadetblue;
-            }
-            p{
-                color:darkorange;
-                font-size: 70px;
-            }
-            input{
-                border-radius: 50px;
-            }
-            input[type=color]{
-                padding: 25px;
-            } */
-            * {
-             color: #d76500;
-             background-color: linear-gradient();
-            }
+  <head>
+    <title>Day 12</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* 
+            1. camel case => colorPink
+            2. snake case => color-pink / color_pink
+            3. pascal case => ColorPink
+            */
+      .colorPink {
+        color: pink;
+        /* background-color: pink; */
+      }
 
-            tr:nth-child(3n){
-                background-color:greenyellow;
-            }
-        </style>
-    </head>
-    <body>
-        <a href="#bawah" id="top">klik saya untuk loncat ke bawah</a>
-        <h1 class="judul halaman1 marginTop10">bootcamp dibimbing</h1>
-        <h1 style="font-family: 'Roboto Mono', monospace;">bootcamp dibimbing</h1>
-        <h1 style="padding-top:1000px"><a href="#top" id="bawah">back to top</a></h1>
+      #titleHelloWorld {
+        color: purple;
+        padding: 20px;
+        border: 1px solid black;
+      }
 
-        <p style="text-align: right;">hello world</p>
-        <div style="text-align: center;">
-            halo dunia
-            <div style="text-align:inherit;">halo dunia part 2</div>
-        </div>
+      #titleDibimbing {
+        font-size: 35px;
+        color: gold;
+        font-weight: 100;
+        line-height: 85px;
+        text-align: center;
+      }
 
-        <table border="1">
-                <tr><td>1</td></tr>
-                <tr><td>1</td></tr>
-                <tr><td>1</td></tr>
-                <tr><td>1</td></tr>
-                <tr><td>1</td></tr>
-                <tr><td>1</td></tr>
-        </table>
-        
-        <input type="text">
-        <input type="color">
-        <input type="password">
-    </body>
+      h1 {
+        color: purple;
+        padding: 20px;
+        border: 1px solid black;
+      }
+
+      input[type='text'] {
+        padding: 20px;
+        border-color: tomato;
+      }
+
+      * {
+        background-color: rgb(119 50 200 / 33%);
+        font-family: 'Send Flowers', cursive;
+      }
+      li {
+          border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+
+    <p class="colorPink">asdkladnfklajdnfkjaldfkbjasdf</p>
+    <p class="colorPink">asdkladnfklajdnfkjaldfkbjasdf part 2</p>
+
+    <h1 id="titleDibimbing">
+      This is FWD by dibimbing.id
+      <br />
+      by Helena Natanael
+    </h1>
+
+    <p style="text-align: justify;">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla felis
+      ipsum, dictum vitae lorem ut, egestas eleifend sapien. Quisque elementum
+      efficitur suscipit. In vel ullamcorper nisi, ac condimentum nisi.
+      Suspendisse nec ex a nulla pellentesque rhoncus. Donec in dolor nisl.
+      Proin commodo eleifend mi nec lacinia. Morbi finibus euismod nisi. In
+      lacinia urna metus, imperdiet vulputate quam convallis non. Donec varius
+      leo volutpat sem viverra efficitur. Sed a justo porttitor, suscipit orci
+      a, congue ex. Nulla nibh ex, dapibus rhoncus velit non, sagittis fringilla
+      dui. Integer pretium quis nibh vel dignissim. Aenean egestas velit nec
+      nisi hendrerit, sed eleifend turpis vestibulum. Vivamus mollis a tellus in
+      dictum. Morbi nunc neque, eleifend dignissim orci id, gravida dignissim
+      nisl. Duis hendrerit commodo mauris eget fringilla. Suspendisse potenti.
+      Etiam porta quam nisl, in ultricies orci condimentum sit amet. Mauris nec
+      euismod mauris. In volutpat semper dui, id blandit augue placerat nec.
+      Morbi mollis mauris mi, sed pulvinar nisl eleifend sed. Quisque interdum
+      semper velit. Ut id aliquet mauris, vitae condimentum risus. Pellentesque
+      habitant morbi tristique senectus et netus et malesuada fames ac turpis
+      egestas. Nulla tempus dolor vitae ligula bibendum cursus. Aenean tempor
+      felis nibh, eget porttitor enim iaculis non. Cras molestie ultrices
+      venenatis. Morbi ac tellus nisi. Mauris a sem eget purus dignissim
+      eleifend. Aliquam a ligula sed leo dignissim scelerisque. Nullam porttitor
+      turpis ut risus condimentum, ut congue magna accumsan. Suspendisse
+      tristique in arcu vel efficitur. Donec euismod tristique sapien, et
+      volutpat tellus bibendum in. Pellentesque mattis, urna nec volutpat
+      lobortis, nulla justo hendrerit nisl, id viverra nulla enim vel urna. In
+      tincidunt lacus at nibh porta, vel convallis nisl ultricies. Nunc in
+      rhoncus odio.
+    </p>
+
+    <input type="text" />
+    <input type="color" />
+    <input type="password" />
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Bootstrap</li>
+    </ul>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Bootstrap</li>
+    </ul>
+  </body>
 </html>
