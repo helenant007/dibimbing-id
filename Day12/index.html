@@ -1,105 +1,109 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Day 12 FWD 8</title>
-    <!-- Macondo Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Macondo&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="stylesheet" href="style.css" />
+    <title>Day 12</title>
+    <link rel="stylesheet" href="styles.css" />
     <style>
-      .internal1 {
-        color: pink;
-        background-color: indigo;
+      /*
+      class selector
+      */
+      .colorShopee {
+        background-color: coral;
+        color: white;
+        padding: 10px;
       }
-      .internal2 {
-        color: skyblue;
-        background-color: slategray;
+      .colorShopee2 {
+        color: black;
+        font-size: 35px;
       }
-      input[type='password'] {
-        padding: 20px;
+      /*
+        ID Selector
+      */
+      #colorblue {
+        background-color: aqua;
+        cursor: url('./customcursor.ico'), crosshair;
       }
+      /*
+        Tag Selector
+      */
+      h4 {
+        background-color: chocolate;
+      }
+      /*
+      Attribute Selector
+      */
+      input[type='text'] {
+        border: 5px pink solid;
+        background-color: lightslategray;
+      }
+      /*
+      Universal Selector
       * {
-        font-family: 'Macondo', cursive;
-        /* fallback value */
-        font-size: 20px;
+        background-color: lime;
+      }
+      */
+      .font-styling {
+        font-size: 50px;
+        font-weight: 100;
+        font-family: system-ui;
+        line-height: 90px;
+      }
+
+      ul {
+        text-align: left;
+        list-style-position: outside;
+        list-style-image: url('./check.svg');
       }
     </style>
   </head>
   <body>
-    <div>
-      <h1 style="color: brown">Inline CSS 1</h1>
-      <h2
-        style="
-          color: green;
-          border-color: black;
-          border-style: solid;
-          border-width: 2px;
-        "
-      >
-        Inline CSS 2
-      </h2>
-      <h2
-        style="
-          color: green;
-          border-color: black;
-          border-style: solid;
-          border-width: 2px;
-          padding: 10px;
-        "
-      >
-        Inline CSS 3
-      </h2>
-    </div>
-    <div>
-      <h3 class="internal1">Internal CSS 1</h3>
-      <h3 class="internal1">Internal CSS 2</h3>
-      <h3 class="internal2">Internal CSS 3</h3>
-    </div>
-    <div>
-      <h3 class="external1">External CSS 1</h3>
-      <h3 class="external1">External CSS 2</h3>
-      <h3 class="external2">External CSS 3</h3>
-      <h5>External CSS 4</h5>
-      <h5>External CSS 5</h5>
-    </div>
-    <div>
-      <input type="text" />
-      <input type="password" />
-      <input type="color" />
-      <input type="checkbox" />
-    </div>
-    <div>
-      <p style="text-align:right;">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id
-        scelerisque leo, eu hendrerit erat. Sed a dignissim metus. Quisque
-        convallis est sit amet bibendum imperdiet. Etiam libero libero,
-        imperdiet nec gravida vel, gravida id mauris. Pellentesque dictum neque
-        urna, nec luctus lectus convallis eu. Phasellus scelerisque neque erat,
-        ac vehicula turpis sollicitudin eu. Nulla id elit mauris. Quisque mattis
-        scelerisque nisl, nec rutrum sem sodales ac. Proin vel ante iaculis
-        magna consequat molestie. Sed tempor eget urna ut tincidunt. Proin
-        commodo luctus dolor, non pulvinar odio volutpat non. Aenean et augue
-        faucibus, accumsan sapien in, tempus odio. In vitae aliquam nisi. In
-        bibendum, metus eu pulvinar interdum, ipsum lorem mattis leo, id
-        tristique libero urna sit amet sem. Etiam velit nibh, varius posuere
-        rhoncus et, rhoncus quis ipsum. Aenean pulvinar dictum ante et
-        convallis. Sed vel convallis lacus, sit amet consectetur risus. Nunc
-        eget neque imperdiet, fermentum ante pellentesque, vestibulum diam. Duis
-        mattis eget diam in gravida. Ut neque ante, posuere nec dui quis, dictum
-        tincidunt orci. Sed pharetra mattis commodo. Vestibulum tincidunt in est
-        quis volutpat. Morbi commodo ex massa, a laoreet lectus viverra quis.
-        Nulla quis placerat neque. Aliquam accumsan, mauris vel fringilla
-        tempor, leo mi consectetur ligula, non volutpat turpis ex eu diam. Donec
-        imperdiet tincidunt felis eget consequat. Duis accumsan maximus libero
-        et tincidunt. Vivamus consectetur leo quis condimentum placerat. Fusce
-        tellus nisi, lacinia nec orci a, commodo rutrum nibh. Vivamus consequat
-        elementum est in facilisis. Aliquam erat volutpat. Suspendisse potenti.
-      </p>
-    </div>
+    <!-- CSS Inline -->
+    <h1
+      style="
+        background-color: pink;
+        padding: 10px;
+        color: purple;
+        font-size: 50px;
+        font-family: 'Courier New', Courier, monospace;
+      "
+    >
+      Hello World
+    </h1>
+    <!-- CSS Internal -->
+    <h2 class="colorShopee colorShopee2">
+      dibimbing
+      <span style="color: white">.</span>
+      <span style="color: crimson">id</span>
+    </h2>
+    <!-- CSS External -->
+    <h2 class="colorToped" style="border: 10px solid black">
+      <marquee> dibimbing.id </marquee>
+    </h2>
+    <h3 id="colorblue" style="text-align: center">
+      <span class="font-styling">warna biru muda 1</span>
+      <br />
+      <span>warna biru muda 2</span>
+    </h3>
+    <h4 style="text-align: right">warna coklat
+    <ul>
+      <li>mba Resa</li>
+      <li>mba Sylvia</li>
+    </ul>
+    </h4>
+    <h4 style="text-align: justify">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque
+      ullamcorper turpis, nec varius nulla vulputate non. Sed eleifend metus
+      vitae lectus hendrerit, non lacinia massa maximus. Quisque eget ipsum
+      interdum, consequat mi scelerisque, porttitor nulla. Sed sed ligula
+      tempus, ultrices metus nec, consectetur nulla. In tristique ante sapien,
+      eu pellentesque purus consectetur eu. Integer ante tellus, consequat
+      sollicitudin lacus at, pharetra tempus velit. Phasellus a dolor placerat,
+      malesuada justo tristique, convallis arcu. Aenean odio tellus, rhoncus a
+      enim eu, sollicitudin congue quam. Nulla consequat consectetur lectus a
+      egestas. Ut velit lacus, maximus a nulla ut, ullamcorper feugiat lectus.
+      Nulla nulla est, luctus id justo et, consectetur vehicula nisi.
+    </h4>
+    <input type="text" />
+    <input type="password" />
   </body>
 </html>
