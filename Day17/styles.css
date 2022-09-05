@@ -1,0 +1,127 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* Sign In Component */
+.signin_text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  color: #000032;
+  margin-bottom: 41px;
+}
+
+.container_signin {
+  width: 400px;
+  height: 563px;
+  padding: 48px 24px;
+  /* border: 1px solid black; */
+}
+
+.input_style {
+  border: 1.5px solid #000032;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.signup_text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f6a973;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.or_text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.form_center {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.keepsignin_text {
+  margin-left: 12px;
+}
+
+.button_width_100 {
+  margin-bottom: 12px;
+  width: 100%;
+}
+
+.btn_close_clean {
+  padding-left: 185%;
+  padding-top: 5%;
+}
+
+/* Main Component */
+.logo_text {
+  font-family: 'Open Sans', sans-serif; /* fallback */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+}
+
+.color_orange {
+  color: #f6a973;
+}
+
+.color_marine {
+  color: #000032;
+}
+
+.input_search {
+  border: 1.5px solid #000032;
+  border-radius: 24px;
+}
+
+.border_none_radius {
+  border: none;
+  border-radius: 24px;
+}
+
+.nav_padding {
+  padding: 0 8%;
+}
+
+.width_80 {
+  width: 80%;
+}
+
+.price_btn {
+  border: 1.5px solid #f6a973;
+  border-radius: 24px;
+}
+
+.card_border_none {
+  border: none;
+}
+
+.row_mb_38 {
+  margin-bottom: 38px;
+}
+
+.row_highlight {
+  background-color: #f2f2f2;
+  padding: 40px 0;
+}
+
+@media screen and (min-width: 992px) {
+  .row_mb_38 {
+    /* max-width: 80%; */
+    padding-left: 180px;
+    padding-right: 180px;
+  }
+}
