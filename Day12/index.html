@@ -2,108 +2,92 @@
 <html>
   <head>
     <title>Day 12</title>
-    <link rel="stylesheet" href="styles.css" />
+    <!-- <link rel="stylesheet" type="text/css"  href="./style.css" /> -->
     <style>
-      /*
-      class selector
-      */
-      .colorShopee {
-        background-color: coral;
-        color: white;
-        padding: 10px;
+      /* class selector */
+      .h1 {
+        color: brown;
       }
-      .colorShopee2 {
-        color: black;
-        font-size: 35px;
+      /* id selector */
+      #id_h2 {
+        background-color: pink;
       }
-      /*
-        ID Selector
-      */
-      #colorblue {
-        background-color: aqua;
-        cursor: url('./customcursor.ico'), crosshair;
+      /* tag selector */
+      h1 {
+        color: blue;
       }
-      /*
-        Tag Selector
-      */
-      h4 {
-        background-color: chocolate;
+      h2 {
+        color: blueviolet;
       }
-      /*
-      Attribute Selector
-      */
+      /* attribute selector */
       input[type='text'] {
-        border: 5px pink solid;
-        background-color: lightslategray;
-      }
-      /*
-      Universal Selector
-      * {
-        background-color: lime;
-      }
-      */
-      .font-styling {
-        font-size: 50px;
-        font-weight: 100;
-        font-family: system-ui;
-        line-height: 90px;
+        background-color: black;
+        color: white;
       }
 
-      ul {
-        text-align: left;
-        list-style-position: outside;
-        list-style-image: url('./check.svg');
+      input[type='password'] {
+        background-color: green;
+      }
+
+      input[type='file'] {
+        background-color: purple;
+      }
+
+      /* universal selector */
+      * {
+        background-color: white;
       }
     </style>
   </head>
   <body>
-    <!-- CSS Inline -->
-    <h1
-      style="
-        background-color: pink;
-        padding: 10px;
-        color: purple;
-        font-size: 50px;
-        font-family: 'Courier New', Courier, monospace;
-      "
-    >
-      Hello World
-    </h1>
-    <!-- CSS Internal -->
-    <h2 class="colorShopee colorShopee2">
-      dibimbing
-      <span style="color: white">.</span>
-      <span style="color: crimson">id</span>
-    </h2>
-    <!-- CSS External -->
-    <h2 class="colorToped" style="border: 10px solid black">
-      <marquee> dibimbing.id </marquee>
-    </h2>
-    <h3 id="colorblue" style="text-align: center">
-      <span class="font-styling">warna biru muda 1</span>
-      <br />
-      <span>warna biru muda 2</span>
-    </h3>
-    <h4 style="text-align: right">warna coklat
-    <ul>
-      <li>mba Resa</li>
-      <li>mba Sylvia</li>
-    </ul>
-    </h4>
-    <h4 style="text-align: justify">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque
-      ullamcorper turpis, nec varius nulla vulputate non. Sed eleifend metus
-      vitae lectus hendrerit, non lacinia massa maximus. Quisque eget ipsum
-      interdum, consequat mi scelerisque, porttitor nulla. Sed sed ligula
-      tempus, ultrices metus nec, consectetur nulla. In tristique ante sapien,
-      eu pellentesque purus consectetur eu. Integer ante tellus, consequat
-      sollicitudin lacus at, pharetra tempus velit. Phasellus a dolor placerat,
-      malesuada justo tristique, convallis arcu. Aenean odio tellus, rhoncus a
-      enim eu, sollicitudin congue quam. Nulla consequat consectetur lectus a
-      egestas. Ut velit lacus, maximus a nulla ut, ullamcorper feugiat lectus.
-      Nulla nulla est, luctus id justo et, consectetur vehicula nisi.
-    </h4>
-    <input type="text" />
-    <input type="password" />
+    <div>
+      <h1>Front End Web Development Batch 10</h1>
+      <div class="h1">Test dengan class</div>
+      <h2 id="id_h2">
+        with Mba Amel and Mba Helen
+        <h2>
+          <h2 class="h1">test 1</h2>
+          <div class="h1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+            eleifend ac lorem sit amet vestibulum. Sed quis elementum leo. Ut
+            sed gravida eros. Pellentesque ultrices, dolor vel tristique
+            consequat, lorem est malesuada nibh, id accumsan mi lectus nec leo.
+            Donec nec dui leo. Ut sed lectus molestie, elementum tellus
+            consectetur, faucibus magna. Proin bibendum, justo vel aliquam
+            malesuada, odio massa lacinia tellus, ut molestie purus tellus at
+            ligula. Quisque ipsum massa, laoreet sed est at, gravida viverra
+            dui. Donec maximus vehicula enim sit amet suscipit. Maecenas dapibus
+            consequat enim a dignissim. Duis rutrum porta semper. Ut quis tempus
+            sem. Curabitur rhoncus tellus et ligula porta, at ultricies dolor
+            euismod. Aenean maximus ipsum in dignissim placerat. Fusce
+            pellentesque feugiat cursus. Quisque molestie sapien est, et
+            consequat sapien consequat in.
+          </div>
+        </h2>
+      </h2>
+
+      <input type="text" />
+      <input type="password" />
+      <input type="file" />
+      <input type="color" />
+
+      <ul style="list-style-image: url('./customcursor.ico'); list-style-position: inside;">
+        <li>
+            Helena
+        </li>
+        <li>
+            rei
+        </li>
+        <li>
+            mantannya Helena
+        </li>
+        <li>
+            fijar
+        </li>
+        <li>Amel</li>
+        <li>Lisa</li>
+        <li>Dadang</li>
+      </ul>
+    </div>
   </body>
 </html>

@@ -1,104 +1,65 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Day 14 Bootstrap 1</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-      crossorigin="anonymous"
-    ></script>
-
+    <title>Day 14</title>
     <style>
-      .colorpurple {
-        background-color: plum;
-        border: 1px white solid;
+      .divclass {
+        background-color: burlywood;
+        padding: 20px;
+        font-size: 50px;
+
+        /* shorthand */
+        border: 10px solid hotpink;
+        /* border-style: dashed; */
+        border-radius: 65px;
+
+        /* border-width: 50px;
+        border-style:dashed;
+        border-color:aqua; */
+
+        /* border-top-width: 50px;
+        border-left-width:20px;
+        border-right-width:5px;
+        border-bottom-width:100px;
+
+        border-top-color:violet;
+        border-right-color:aquamarine;
+        border-bottom-color:yellow;
+        border-left-color:brown;
+
+        border-top-style: dotted;
+        border-right-style:double;
+        border-bottom-style:solid;
+        border-left-style:dashed; */
       }
 
-      /* Media Queries using max-width */
-      /* min 993 - max bebas */
-      /* .changing-color {
-        background-color:powderblue;
-        width: 100vw;
-        height: 30vh;
-      } */
-
-      /* min 769 - max 992 */
-      /* @media screen and (max-width: 992px){
-        .changing-color {
-          background-color:chartreuse;
-          font-size: 8px;
-          margin: 20px;
-        }
-      } */
-
-      /* min 0 - max 768 */
-      /* @media screen and (max-width:768px) {
-        .changing-color {
-          background-color: rosybrown;
-          font-size: 45px;
-          margin: 0;
-        }
-      } */
-
-      /* Media Queries using min-width */
-
-      /* min 0 - max 768 */
-       .changing-color {
-        background-color: rosybrown;
-        font-size: 45px;
-        margin: 0;
-        width: 100vw;
-        height: 30vh;
+      .spanclass {
+        background-color: tomato;
       }
 
+      .divround {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        background-color: aqua;
 
-      /* min 769 - max 992*/
-      @media screen and (min-width: 769px) {
-        .changing-color {
-          background-color: chartreuse;
-          font-size: 8px;
-          margin: 20px;
-        }
-      }
-
-      /* min 993 - max bebas */
-      @media screen and (min-width: 993px) {
-        .changing-color {
-          background-color: powderblue;
-          margin: 0;
-          font-size: 16px;
-        }
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
     </style>
   </head>
   <body>
-    <div style="background-color: pink; width: 80vw; height: 50vh">
-      dibimbing.id
+    <div class="divclass">
+      ini adalah div
+      <span class="spanclass">ini adalah span</span>
     </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-4 colorpurple">col-4</div>
-        <div class="col-md-6 colorpurple">col-6</div>
-        <div class="col-md-1 colorpurple">col-1</div>
-        <div class="col-md-1 colorpurple">col-1</div>
-      </div>
-      <div class="row">
-        <div class="col-1 colorpurple">col-1</div>
-        <div class="col-3 colorpurple">col-3</div>
-        <div class="col-2 colorpurple">col-2</div>
-        <div class="col-5 colorpurple">col-5</div>
-      </div>
+    <span class="spanclass"> ini adalah span </span>
+    <div class="divround"> ABC </div>
 
-      <!-- Media Queries -->
-      <div class="row rounded changing-color">dibimbing.id</div>
-      <img class="img-fluid" src="./background.jpg" />
-      <img class="img-thumbnail" src="./background.jpg" />
+    <img src="https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/platform-mweb-high/promo/2022/10/07/2df61aa9-ac9f-4b46-9035-77db1f54b92d-1665110901380-fcbdc037be85266b5332619ad2ead29a.png" width="200px" />
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis lacus ac nunc placerat iaculis. Ut accumsan arcu ut lobortis eleifend. Proin porta nisi nec blandit semper. Integer fringilla eros est, eu faucibus mauris vulputate quis. Nunc ultricies augue eu diam fermentum tempus. Nam leo nunc, dapibus nec diam elementum, finibus suscipit dui. Pellentesque rutrum efficitur orci, in tempus ante. Vivamus sodales nunc quis eros placerat feugiat. Nunc nec lacus ultricies, tempor urna nec, egestas est. Aenean ornare mauris at lobortis elementum. Curabitur at mattis tellus. Aliquam nisl justo, ullamcorper a iaculis ac, pellentesque in mauris. Nullam risus sapien, ullamcorper non orci sed, tempus eleifend ante. Curabitur finibus quam at sodales blandit. Aliquam in erat consectetur, faucibus leo quis, dictum eros. Sed in orci vitae ante vehicula pellentesque.
     </div>
   </body>
 </html>
