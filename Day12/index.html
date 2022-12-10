@@ -1,93 +1,98 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Day 12</title>
-    <!-- <link rel="stylesheet" type="text/css"  href="./style.css" /> -->
+    <title>FE Day 12</title>
+
+    <!-- Google Fonts Quicksand -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+
     <style>
-      /* class selector */
-      .h1 {
-        color: brown;
-      }
-      /* id selector */
-      #id_h2 {
+      /* Class Selector */
+      .h1class {
         background-color: pink;
+        font-size: 90px;
+        color: purple;
+        padding: 30px;
+        margin: 50px;
+        font-family: 'Quicksand', sans-serif;
       }
-      /* tag selector */
+
+      /* ID Selector */
+      #h1id {
+        background-color: cornflowerblue;
+        font-size: 150px;
+      }
+
+      /* Tag Selector */
       h1 {
-        color: blue;
+        letter-spacing: 100px;
       }
-      h2 {
-        color: blueviolet;
-      }
-      /* attribute selector */
+      /* input {
+        background-color:red;
+      } */
+
+      /* Attribute Selector */
       input[type='text'] {
-        background-color: black;
-        color: white;
+        background-color: red;
       }
 
       input[type='password'] {
-        background-color: green;
+        padding: 50px;
       }
 
-      input[type='file'] {
-        background-color: purple;
-      }
-
-      /* universal selector */
+      /* Universal Selector */
       * {
-        background-color: white;
+        font-family: sans-serif;
+        /* background: linear-gradient(334deg, rgb(193 14 14 / 70%) 0%, rgb(23 23 76) 35%, rgba(0,212,255,1) 100%);; */
       }
     </style>
   </head>
   <body>
-    <div>
-      <h1>Front End Web Development Batch 10</h1>
-      <div class="h1">Test dengan class</div>
-      <h2 id="id_h2">
-        with Mba Amel and Mba Helen
-        <h2>
-          <h2 class="h1">test 1</h2>
-          <div class="h1">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-            eleifend ac lorem sit amet vestibulum. Sed quis elementum leo. Ut
-            sed gravida eros. Pellentesque ultrices, dolor vel tristique
-            consequat, lorem est malesuada nibh, id accumsan mi lectus nec leo.
-            Donec nec dui leo. Ut sed lectus molestie, elementum tellus
-            consectetur, faucibus magna. Proin bibendum, justo vel aliquam
-            malesuada, odio massa lacinia tellus, ut molestie purus tellus at
-            ligula. Quisque ipsum massa, laoreet sed est at, gravida viverra
-            dui. Donec maximus vehicula enim sit amet suscipit. Maecenas dapibus
-            consequat enim a dignissim. Duis rutrum porta semper. Ut quis tempus
-            sem. Curabitur rhoncus tellus et ligula porta, at ultricies dolor
-            euismod. Aenean maximus ipsum in dignissim placerat. Fusce
-            pellentesque feugiat cursus. Quisque molestie sapien est, et
-            consequat sapien consequat in.
-          </div>
-        </h2>
-      </h2>
+    <h1 style="background-color: pink">CSS part 1</h1>
+    <h1 class="h1class">CSS part 1</h1>
+    <h1 class="h1class">
+      CSS part 1 CSS part 1 CSS part 1 CSS part 1 CSS part 1 CSS part 1 CSS part
+      1 CSS part 1 CSS part 1 CSS part 1 CSS part 1 CSS part 1 CSS part 1 CSS
+      part 1 CSS part 1 CSS part 1 CSS part 1 CSS part 1 CSS part 1 CSS part 1
+      CSS part 1 CSS part 1 CSS part 1 CSS part 1 CSS part 1 CSS part 1 CSS part
+      1 CSS part 1 CSS part 1 CSS part 1 CSS part 1 CSS part 1 CSS part 1 CSS
+      part 1 CSS part 1 CSS part 1 CSS part 1 CSS part 1 CSS part 1 CSS part 1
+      CSS part 1 CSS part 1
+    </h1>
 
-      <input type="text" />
-      <input type="password" />
-      <input type="file" />
-      <input type="color" />
+    <h1 id="h1id">CSS part 1</h1>
+    <h1>CSS part 1ab</h1>
+    <h2 id="h1id2">CSS part 1a</h2>
 
-      <ul style="list-style-image: url('./customcursor.ico'); list-style-position: inside;">
-        <li>
-            Helena
-        </li>
-        <li>
-            rei
-        </li>
-        <li>
-            mantannya Helena
-        </li>
-        <li>
-            fijar
-        </li>
-        <li>Amel</li>
-        <li>Lisa</li>
-        <li>Dadang</li>
-      </ul>
-    </div>
+    <input type="text" class="h1class" />
+    <input type="color" />
+    <input type="password" />
+
+    <hr />
+
+    <ul>
+      <li>Afif Fasya</li>
+      <li>Risdo Lihardo</li>
+      <li>Rizki Fauzi</li>
+      <li>Yohannes Julius</li>
+      <li>Ari Gunawan</li>
+      <li>Sahrul Milad</li>
+    </ul>
+
+    <ul>
+      <li>Afif Fasya</li>
+      <li>Risdo Lihardo</li>
+      <li>Rizki Fauzi</li>
+      <li>Yohannes Julius</li>
+      <li>Ari Gunawan</li>
+      <li>Sahrul Milad</li>
+    </ul>
+
+    <div style="padding-bottom: 100px" />
   </body>
 </html>
