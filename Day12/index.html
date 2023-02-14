@@ -1,98 +1,98 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>FE Day 12</title>
+    <title>Day 12 CSS 1</title>
 
-    <!-- Google Fonts Quicksand -->
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;500&display=swap"
       rel="stylesheet"
     />
 
+    <!-- External Style -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!-- Internal Style -->
     <style>
       /* Class Selector */
-      .h1class {
+      .bgPink {
         background-color: pink;
-        font-size: 90px;
         color: purple;
-        padding: 30px;
-        margin: 50px;
-        font-family: 'Quicksand', sans-serif;
       }
 
       /* ID Selector */
-      #h1id {
-        background-color: cornflowerblue;
-        font-size: 150px;
+      #bgBlue {
+        background-color: aqua;
+        color: teal;
       }
 
       /* Tag Selector */
-      h1 {
-        letter-spacing: 100px;
-      }
-      /* input {
-        background-color:red;
-      } */
-
-      /* Attribute Selector */
-      input[type='text'] {
-        background-color: red;
-      }
-
-      input[type='password'] {
-        padding: 50px;
-      }
-
-      /* Universal Selector */
-      * {
-        font-family: sans-serif;
-        /* background: linear-gradient(334deg, rgb(193 14 14 / 70%) 0%, rgb(23 23 76) 35%, rgba(0,212,255,1) 100%);; */
+      h2 {
+        background-color: coral;
+        padding: 20px;
       }
     </style>
   </head>
   <body>
-    <h1 style="background-color: pink">CSS part 1</h1>
-    <h1 class="h1class">CSS part 1</h1>
-    <h1 class="h1class">
-      CSS part 1 CSS part 1 CSS part 1 CSS part 1 CSS part 1 CSS part 1 CSS part
-      1 CSS part 1 CSS part 1 CSS part 1 CSS part 1 CSS part 1 CSS part 1 CSS
-      part 1 CSS part 1 CSS part 1 CSS part 1 CSS part 1 CSS part 1 CSS part 1
-      CSS part 1 CSS part 1 CSS part 1 CSS part 1 CSS part 1 CSS part 1 CSS part
-      1 CSS part 1 CSS part 1 CSS part 1 CSS part 1 CSS part 1 CSS part 1 CSS
-      part 1 CSS part 1 CSS part 1 CSS part 1 CSS part 1 CSS part 1 CSS part 1
-      CSS part 1 CSS part 1
-    </h1>
+    <!-- Inline Style -->
+    <h1 style="background-color: black; color: white">M. Riza Muzakki</h1>
 
-    <h1 id="h1id">CSS part 1</h1>
-    <h1>CSS part 1ab</h1>
-    <h2 id="h1id2">CSS part 1a</h2>
+    <h1 class="bgPink">Monica Aurellia</h1>
+    <h1 class="bgPink">Ima Nandasari</h1>
+    <h1 id="bgBlue">Ardi Wiranto</h1>
+    <h1 id="bgBlue">Ilhamsyah Putra</h1>
+    <!-- ID selector not recommended to be used more than once -->
 
-    <input type="text" class="h1class" />
+    <h2>Izhar Muhamad Ramdan</h2>
+    <h2>Sahlan</h2>
+    <h2>Istifaroh</h2>
+    <h2>Yasyir Masy'al</h2>
+    <h2>Rheza Bramianto</h2>
+
+    <input type="text" />
     <input type="color" />
+    <input type="checkbox" />
     <input type="password" />
 
-    <hr />
+    <div>Ridho</div>
 
-    <ul>
-      <li>Afif Fasya</li>
-      <li>Risdo Lihardo</li>
-      <li>Rizki Fauzi</li>
-      <li>Yohannes Julius</li>
-      <li>Ari Gunawan</li>
-      <li>Sahrul Milad</li>
+    <p style="text-align: justify">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec nisl
+      non nulla blandit vestibulum. Sed auctor cursus augue, sit amet
+      condimentum odio tincidunt non. Vestibulum tempor libero nec risus
+      ullamcorper, non elementum tellus gravida. Aliquam finibus eleifend
+      dictum. Sed quam dui, egestas in tempus vitae, aliquam quis ex. Ut metus
+      dui, consequat vel euismod ut, mattis eu ligula. Pellentesque bibendum, ex
+      a vehicula molestie, lectus risus ornare purus, et porta mauris ipsum nec
+      massa. Quisque tincidunt imperdiet sem in ultricies. In hac habitasse
+      platea dictumst. Quisque non semper urna. Proin ac lectus vulputate,
+      eleifend risus sed, rutrum urna. Phasellus ac enim velit. Vivamus
+      tincidunt lorem nec rhoncus tempus. Quisque luctus turpis vitae lectus
+      fermentum fringilla.
+    </p>
+
+    <!-- list-style-position: inside -->
+    <ul
+      style="
+        list-style-position: inside;
+        list-style-image: url('./customcursor.ico');
+      "
+    >
+      <li>Annisa Jema</li>
+      <li>Muhammad Gusti Eka Putra</li>
+      <li>Andri Anggoro</li>
+      <li>Muhammad Rafi</li>
+      <li>Elang Maulana</li>
     </ul>
 
     <ul>
-      <li>Afif Fasya</li>
-      <li>Risdo Lihardo</li>
-      <li>Rizki Fauzi</li>
-      <li>Yohannes Julius</li>
-      <li>Ari Gunawan</li>
-      <li>Sahrul Milad</li>
+      <li>Annisa Jema</li>
+      <li>Muhammad Gusti Eka Putra</li>
+      <li>Andri Anggoro</li>
+      <li>Muhammad Rafi</li>
+      <li>Elang Maulana</li>
     </ul>
-
-    <div style="padding-bottom: 100px" />
   </body>
 </html>
