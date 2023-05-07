@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Day 15 CSS 2</title>
+    <style>
+      .div1 {
+        margin: 100px 120px 10px 50px;
+        padding: 10px;
+        border: 5px dashed #777f0f;
+        border-style: ridge;
+      }
+
+      .div2 {
+        padding: 50px;
+        margin: 25px;
+        border-radius: 50%;
+        width: 500px;
+        height: 500px;
+        text-align: center;
+        /* line height = height */
+        line-height: 500px;
+      }
+
+      .divflex {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+      }
+
+      /* logo instagram */
+      .frame {
+
+    width: 200px;
+    height: 200px;
+    border: 15px solid;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+
+      }
+
+      .camera {
+        width: 75px;
+    height: 75px;
+    border: 15px solid;
+    border-radius: 50%;
+      }
+
+      .flashlight {
+
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border: 5px solid;
+    border-radius: 50%;
+    position: relative;
+    top: -59px;
+    left: 15px;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div style="background-color: violet" class="div1">Div 1</div>
+    <div style="background-color: yellowgreen" class="div2">Div 2</div>
+
+    <span style="background-color: tomato"> Span 1 </span>
+    <span style="background-color: royalblue"> Span 2 </span>
+
+    <div style="padding: 10px; margin: 10px;    background-color: #3F51B5;
+    position: sticky;
+    top: 20px;">
+      div 1
+    </div>
+
+    <div>
+      <img
+        src="https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/discovery-desktop/promo/2023/01/31/9e59c278-42e4-4730-b56c-b6e84d06657f-1675149163096-f5149b85dcab2fe80cc1d217cf6a425b.png"
+        width="300px"
+        style="float: left; margin: 10px"
+      />
+      <p style="text-align: justify">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet
+        eros pharetra, laoreet erat sed, aliquam felis. Nunc sit amet fermentum
+        nisi, et efficitur nunc. Curabitur massa velit, finibus vel nibh ac,
+        porttitor rutrum lectus. Nulla nisi felis, semper vitae lectus eget,
+        venenatis consectetur diam. Interdum et malesuada fames ac ante ipsum
+        primis in faucibus. Nunc blandit ante lacus, eget sollicitudin elit
+        lobortis vitae. Quisque a iaculis velit. Fusce pellentesque porta massa,
+        id placerat tellus condimentum non. Ut ligula nisi, feugiat id nunc sit
+        amet, scelerisque faucibus lorem. Suspendisse in ante velit.
+        Pellentesque consectetur, tellus tincidunt ultricies porta, massa velit
+        porttitor ante, sit amet auctor justo purus vel risus. Integer eros
+        tellus, viverra at consequat eget, euismod eu ex. Etiam vestibulum
+        euismod nisi vel accumsan. In sit amet congue mauris. Integer
+        scelerisque id eros vel fermentum. Ut dictum efficitur felis, eget
+        malesuada lacus fringilla sed. Donec tortor sem, tempus nec lectus non,
+        vestibulum consequat magna. Donec vel ligula sed est consequat blandit.
+        Donec venenatis facilisis mauris, quis posuere lorem pulvinar ut. Donec
+        imperdiet ligula non lacinia ullamcorper. Aenean vehicula urna diam, sit
+        amet hendrerit mi aliquet et. Mauris ut accumsan lorem. Vestibulum
+        viverra aliquet enim.
+      </p>
+    </div>
+
+    <div class="divflex" style="margin-bottom:100px;">
+      <div style="padding: 10px; margin: 10px; background-color: burlywood">
+        div 1
+      </div>
+      <div style="padding: 10px; margin: 10px; background-color: burlywood">
+        div 2
+      </div>
+      <div style="padding: 10px; margin: 10px; background-color: burlywood">
+        div 3
+      </div>
+    </div>
+
+    <!-- logo instagram -->
+    <div class="frame">
+        <div class="camera"></div>
+        <div class="flashlight"></div>
+    </div>
+
+    <div style="margin-bottom:1000px;">
+        <div style="padding: 10px; margin: 10px; background-color: burlywood; position: fixed; top:20px;">
+          div 2
+        </div>
+        <div style="padding: 10px; margin: 10px; background-color: burlywood">
+          div 3
+        </div>
+      </div>
+
+  </body>
+</html>
