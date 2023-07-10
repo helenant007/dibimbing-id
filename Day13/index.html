@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Day 13 - CSS 1</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Fasthand -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Internal CSS -->
+    <style>
+      /* CSS Selectors */
+      /* Class Selector */
+      .colorGrey {
+        background-color: grey;
+        color: white;
+        padding: 15px;
+      }
+      /* ID Selector */
+      #colorBlue {
+        background-color: steelblue;
+      }
+      /* Tag Selector */
+      h3 {
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding-left: 50px;
+      }
+      /* Attribute Selector */
+      input[type='password'] {
+        background-color: turquoise;
+        font-size: 30px;
+      }
+      /* Universal Selector */
+      * {
+        /* border: 1px solid; */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- CSS inline -->
+    <h1 style="background-color: yellowgreen; padding: 20px">
+      <span>Hello World 1</span>
+      <div>belajar CSS part 1</div>
+      <div>dengan mbak Helen</div>
+    </h1>
+    <h1>Hello World 2</h1>
+    <hr />
+    <!-- CSS Internal -->
+    <h2 class="colorGrey">Mas Hafiq</h2>
+    <h2 class="colorGrey">Mas Ega</h2>
+    <h2 class="colorGrey">Mas Argi</h2>
+    <h2>Mas Ariant</h2>
+    <hr />
+    <!-- CSS External -->
+    <h2 class="colorPink">Mas Bagus</h2>
+    <h2 class="colorPink">Mas Dwi</h2>
+    <h2>Mas Fajar</h2>
+    <h2>Mas Fendy</h2>
+
+    <hr />
+    <!-- CSS Selectors -->
+    <!-- Class Selector -->
+    <h2 class="colorGrey">Mas Hendra</h2>
+    <!-- ID Selector & Tag Selector -->
+    <h3 id="colorBlue">Mas Hilmi</h3>
+    <!-- Attribute Selector -->
+    <input type="text" />
+    <input type="password" />
+    <input type="checkbox" />
+
+    <hr />
+    <!-- font in CSS -->
+    <div
+      style="
+        font-size: 60px;
+        font-weight: 500;
+        font-family: 'Fasthand', cursive;
+      "
+    >
+      Mas Kurniawan
+    </div>
+    <div style="font-family: 'Roboto', sans-serif; line-height: 70px">
+      Mas Ligar
+    </div>
+
+    <!-- text alignment -->
+    <div style="text-align: left;">Mas Nazhat</div>
+    <div style="text-align: center;">Mas Rian</div>
+    <div style="text-align: right;">Mas Rico</div>
+    <div style="text-align: justify;">Mas Willy</div>
+    <div style="text-align: right;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend id nisl non finibus. Suspendisse id fermentum elit. Etiam quis ipsum erat. Maecenas in mauris interdum, iaculis purus non, efficitur neque. Maecenas suscipit malesuada quam, sit amet tincidunt ligula consectetur ut. Vestibulum euismod id sem sed malesuada. Duis id sagittis lectus, eu sodales magna. Donec sagittis dapibus nibh ut facilisis. Nulla pulvinar malesuada felis, at porttitor felis commodo sit amet. Pellentesque lacinia ligula a lectus sagittis, non commodo leo semper. Morbi ut nisl vel erat faucibus scelerisque nec vel dui. Fusce non eros quis nulla molestie consequat id id nisl. Praesent suscipit tempor justo, nec ullamcorper libero laoreet sit amet.</div>
+    <div style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend id nisl non finibus. Suspendisse id fermentum elit. Etiam quis ipsum erat. Maecenas in mauris interdum, iaculis purus non, efficitur neque. Maecenas suscipit malesuada quam, sit amet tincidunt ligula consectetur ut. Vestibulum euismod id sem sed malesuada. Duis id sagittis lectus, eu sodales magna. Donec sagittis dapibus nibh ut facilisis. Nulla pulvinar malesuada felis, at porttitor felis commodo sit amet. Pellentesque lacinia ligula a lectus sagittis, non commodo leo semper. Morbi ut nisl vel erat faucibus scelerisque nec vel dui. Fusce non eros quis nulla molestie consequat id id nisl. Praesent suscipit tempor justo, nec ullamcorper libero laoreet sit amet.</div>
+ 
+<!-- List -->
+<h3 style="background-color: gold;">Unordered List</h3>
+<ul style="list-style-type: decimal; list-style-position: inside;">
+  <li>Satu</li>
+  <li>Dua</li>
+  <li>Tiga</li>
+  <li>Empat</li>
+  <li>Lima</li>
+  <li>Enam</li>
+</ul>
+
+<h3 style="background-color: gold;">Ordered List</h3>
+<ol style="list-style-image: url('./nike.png')">
+  <li>Satu</li>
+  <li>Dua</li>
+  <li>Tiga</li>
+  <li>Empat</li>
+  <li>Lima</li>
+  <li>Enam</li>
+</ol>
+
+  </body>
+</html>
